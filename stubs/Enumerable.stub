@@ -1,0 +1,11 @@
+<?php
+
+namespace Tightenco\Collect\Support;
+
+/**
+ * @template T
+ * @extends \IteratorAggregate<mixed, T>
+ */
+interface Enumerable extends \IteratorAggregate
+{
+}

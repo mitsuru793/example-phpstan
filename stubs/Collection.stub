@@ -1,0 +1,11 @@
+<?php
+
+namespace Tightenco\Collect\Support;
+
+/**
+ * @template T
+ * @implements Enumerable<T>
+ */
+class Collection implements Enumerable
+{
+}

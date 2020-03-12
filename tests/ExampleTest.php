@@ -7,8 +7,7 @@ use Helper\TestBase;
 
 final class ExampleTest extends TestBase
 {
-    public function testHello()
+    public function testHello(): void
     {
-        $this->assertTrue(true);
     }
 }

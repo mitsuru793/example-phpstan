@@ -1,9 +1,12 @@
 parameters:
   level: max
-  memory-limit: 300M
   autoload_files:
   paths:
     - %rootDir%/../../../src
     - %rootDir%/../../../tests
   excludes_analyse:
     - %rootDir%/../../../.php_cs
+  stubFiles:
+    - %rootDir%/../../../stubs/Collection.stub
+    - %rootDir%/../../../stubs/Enumerable.stub
+
